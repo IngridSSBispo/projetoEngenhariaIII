@@ -10,6 +10,6 @@ public class TestaFiliacao {
     public void validaFiliacao(){
 
         Filiacao filiacao = new Filiacao("Marta");
-        Assert.assertEquals("Martinha",filiacao.getNomeMae());
+        Assert.assertEquals("Marta",filiacao.getNomeMae());
     }
 }
